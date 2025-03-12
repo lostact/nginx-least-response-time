@@ -2,7 +2,7 @@
 A lua module to implement least response time balancing for nginx.
 
 # Requirements
-To modify upstream servers weights I have used a [fork]([url](https://github.com/lostact/lua-upstream-nginx-module)) of [lua-upstream-nginx-module]([url](https://github.com/openresty/lua-upstream-nginx-module)) that has the change weight api added. The fork is based on a [PR]([url](https://github.com/openresty/lua-upstream-nginx-module/pull/5)) to the original module that is still not merged after years.
+To modify upstream servers weights I have used a [fork](https://github.com/lostact/lua-upstream-nginx-module) of [lua-upstream-nginx-module](https://github.com/openresty/lua-upstream-nginx-module) that has the change weight api added. The fork is based on a [PR](https://github.com/openresty/lua-upstream-nginx-module/pull/5) to the original module that is still not merged after years.
 
 # Usage
 The update_data function is used for saving data in log phase:
